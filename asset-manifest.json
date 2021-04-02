@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ec03814b.chunk.css",
-    "main.js": "/static/js/main.5ef9705e.chunk.js",
-    "main.js.map": "/static/js/main.5ef9705e.chunk.js.map",
+    "main.js": "/static/js/main.148a904f.chunk.js",
+    "main.js.map": "/static/js/main.148a904f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.32230bf3.js",
     "runtime-main.js.map": "/static/js/runtime-main.32230bf3.js.map",
     "static/js/2.7a9f8c06.chunk.js": "/static/js/2.7a9f8c06.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/img_3.af051e98.png": "/static/media/img_3.af051e98.png",
     "static/media/img_4.882f66e1.png": "/static/media/img_4.882f66e1.png",
     "static/media/img_5.23d6fe10.png": "/static/media/img_5.23d6fe10.png",
+    "static/media/img_6.fbe74ec6.png": "/static/media/img_6.fbe74ec6.png",
     "static/media/lightswitch.77a912d8.mp3": "/static/media/lightswitch.77a912d8.mp3",
     "static/media/notch.4ba28b46.png": "/static/media/notch.4ba28b46.png",
     "static/media/notebook_app.f4e4e3bd.png": "/static/media/notebook_app.f4e4e3bd.png",
@@ -38,6 +39,6 @@
     "static/js/runtime-main.32230bf3.js",
     "static/js/2.7a9f8c06.chunk.js",
     "static/css/main.ec03814b.chunk.css",
-    "static/js/main.5ef9705e.chunk.js"
+    "static/js/main.148a904f.chunk.js"
   ]
 }
