@@ -130,10 +130,7 @@ const RepositoryCard = (props: RepositoryCardProps) => {
                     fallback={<Skeleton />}
                     objectFit="cover"
                   /> */}
-                  <LazyImage
-                    src={cover}
-                    blurHash={blurHash}
-                  />
+                  <LazyImage src={cover} blurHash={blurHash} />
                 </AspectRatio>
               </MotionBox>
             </MotionBox>
