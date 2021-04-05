@@ -1,4 +1,6 @@
 import * as React from "react";
+import { useEffect } from "react";
+import useFetch from "use-http";
 import {
   VStack,
   Text,
@@ -8,13 +10,30 @@ import {
 } from "@chakra-ui/react";
 import { PageSlideFade, StaggerChildren } from "./page-transitions";
 import { repositories } from "../data/repositories";
-import RepositoryCard from "./repository-card";
+import RepositoryCard from "./repository-card1";
 import Header from "./header";
 import { MotionBox } from "./motion";
 
 const TURQUOISE = "#06b6d4";
 
 const RepositoriesList = () => {
+  const { get, request, response, loading, error, data } = useFetch(
+    "https://api.github.com"
+  );
+
+  useEffect(() => {
+    console.log(data);
+
+    get("/users/MA-Ahmad").then(res => {
+      console.log(res);
+    });
+    get("/repos/MA-Ahmad").then(res => {
+      console.log(res);
+    });
+    get("/repos/MA-Ahmad/rails-authentication-app/languages").then(res => {
+      console.log(res);
+    });
+  }, []);
   return (
     <PageSlideFade>
       <VStack align="start" spacing={3}>
